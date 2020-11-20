@@ -8,6 +8,7 @@
         [Key]
         public int UserId { get; set; }
         [Column(TypeName = "nvarchar(100)")]
+        [Required(ErrorMessage = "Please insert the user's name")]
         public string Name { get; set; }
         [Column(TypeName = "date")]
         public DateTime DateOfBirth { get; set; }
