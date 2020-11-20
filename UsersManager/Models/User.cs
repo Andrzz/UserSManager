@@ -14,4 +14,10 @@
         [Column(TypeName = "varchar(1)")]
         public char Gender { get; set; }
     }
+
+    public enum Gender
+    {
+        M,
+        F
+    }
 }
